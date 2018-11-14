@@ -3,7 +3,7 @@ import time
 from celery.result import AsyncResult
 
 if __name__ == '__main__':
-    n1 = 1
+    n1 = 10
 
     result_list = []
 
