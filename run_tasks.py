@@ -2,7 +2,7 @@ from tasks import add
 import time
 from celery.result import AsyncResult
 
-if __name__ == '__main__':
+def func_run_tasks():
     n1 = 1
 
     result_list = []
@@ -40,9 +40,10 @@ if __name__ == '__main__':
         
         # print (result.result)
 
-            
+    return 0  
 
-
+if __name__ == '__main__':
+    func_run_tasks()
 
 
     
