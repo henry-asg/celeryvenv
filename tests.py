@@ -17,4 +17,6 @@ class TestCeleryMethods(unittest.TestCase):
         self.assertEqual(run_tasks.func_run_tasks(), 3)
 
 if __name__ == '__main__':
-    unittest.main(exit=False)
+    import xmlrunner
+    # unittest.main(exit=False)
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
