@@ -17,4 +17,4 @@ class TestCeleryMethods(unittest.TestCase):
         self.assertEqual(run_tasks.func_run_tasks(), 3)
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(exit=False)
