@@ -13,5 +13,8 @@ class TestCeleryMethods(unittest.TestCase):
     def test_n1_2(self):
         self.assertEqual(run_tasks.func_run_tasks(), 2)
 
+    def test_n1_3(self):
+        self.assertEqual(run_tasks.func_run_tasks(), 3)
+
 if __name__ == '__main__':
     unittest.main()
